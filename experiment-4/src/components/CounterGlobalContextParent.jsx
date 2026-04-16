@@ -8,7 +8,7 @@ export default function CounterContextParent(props) {
 
   return (
     <div>
-      <h3>{props.cno} : Gloabl State (ContextAPI) Count: {count}</h3>
+      <h3>{props.cno} : Global State (ContextAPI) Count: {count}</h3>
 
       <Button variant="outlined" onClick={() => setCount(count + 1)}>
         Increase
